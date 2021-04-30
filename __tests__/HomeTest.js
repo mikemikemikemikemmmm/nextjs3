@@ -9,6 +9,6 @@ test("Check for Getting Started Text", () => {
 it("Renders appropriately", () => {
     render(<Home />);
     expect(
-      screen.getByRole("heading", { name: "Welcome to Next.js!" })
+      screen.getByRole("heading", { name: "Welcome to Next.js!2" })
     ).toBeInTheDocument();
   });
